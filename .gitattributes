@@ -1,2 +1,36 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#Image
+*.jpg filter=lfs diff=lfs merge=lfs -text binary
+*.jpeg filter=lfs diff=lfs merge=lfs -text binary
+*.png filter=lfs diff=lfs merge=lfs -text binary
+*.gif filter=lfs diff=lfs merge=lfs -text binary
+*.psd filter=lfs diff=lfs merge=lfs -text binary
+*.ai filter=lfs diff=lfs merge=lfs -text binary
+*.tga filter=lfs diff=lfs merge=lfs -text binary
+*.tif filter=lfs diff=lfs merge=lfs -text binary
+*.raw filter=lfs diff=lfs merge=lfs -text binary
+*.hdr filter=lfs diff=lfs merge=lfs -text binary
+#Audio
+*.mp3 filter=lfs diff=lfs merge=lfs -text binary
+*.wav filter=lfs diff=lfs merge=lfs -text binary
+*.ogg filter=lfs diff=lfs merge=lfs -text binary
+#Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text binary
+*.mov filter=lfs diff=lfs merge=lfs -text binary
+#3D Object
+*.FBX filter=lfs diff=lfs merge=lfs -text binary
+*.fbx filter=lfs diff=lfs merge=lfs -text binary
+*.blend filter=lfs diff=lfs merge=lfs -text binary
+*.obj filter=lfs diff=lfs merge=lfs -text binary
+#ETC
+*.a filter=lfs diff=lfs merge=lfs -text binary
+*.exr filter=lfs diff=lfs merge=lfs -text binary
+*.pdf filter=lfs diff=lfs merge=lfs -text binary
+*.zip filter=lfs diff=lfs merge=lfs -text binary
+*.dll filter=lfs diff=lfs merge=lfs -text binary
+*.unitypackage filter=lfs diff=lfs merge=lfs -text binary
+*.aif filter=lfs diff=lfs merge=lfs -text binary
+*.ttf filter=lfs diff=lfs merge=lfs -text binary
+*.rns filter=lfs diff=lfs merge=lfs -text binary
+*.reason filter=lfs diff=lfs merge=lfs -text binary
+*.lxo filter=lfs diff=lfs merge=lfs -text binary
+SourceFiles/** filter=lfs diff=lfs merge=lfs -text
